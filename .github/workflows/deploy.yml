@@ -30,7 +30,8 @@ jobs:
       - name: Build site
         run: npm run build
         env:
-          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          # This repository publishes as a user site at the domain root.
+          VITE_BASE_PATH: /
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
