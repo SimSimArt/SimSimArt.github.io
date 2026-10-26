@@ -152,7 +152,7 @@ const skillSections = computed(() => skillGroups.value.map((group) => ({
     <section class="work-cta">
       <EyebrowLabel :label="t('work.contactEyebrow')" />
       <h2>{{ t('work.contactTitleStart') }}<br /><span class="serif-accent">{{ t('work.contactTitleAccent') }}</span></h2>
-      <TextLink href="mailto:simsimq05@gmail.comn">{{ t('work.contactLink') }}</TextLink>
+      <TextLink href="mailto:simsimq05@gmail.com">{{ t('work.contactLink') }}</TextLink>
     </section>
   </section>
 </template>
