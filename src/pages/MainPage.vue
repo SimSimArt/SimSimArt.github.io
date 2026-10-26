@@ -72,7 +72,7 @@ const { t } = useI18n()
       <SectionKicker number="03" :label="t('home.contactKicker')" />
       <div class="contact-card">
         <div><EyebrowLabel :label="t('home.contactEyebrow')" /><h2>{{ t('home.contactTitleStart') }}<br /><span class="serif-accent">{{ t('home.contactTitleAccent') }}</span></h2></div>
-        <a class="contact-arrow" href="mailto:simsimq05@gmail.comn" :aria-label="t('home.emailLabel')">↗</a>
+        <a class="contact-arrow" href="mailto:simsimq05@gmail.com" :aria-label="t('home.emailLabel')">↗</a>
         <p class="contact-email">{{ t('home.email') }}</p>
       </div>
       <div class="home-socials"><span>{{ t('home.social') }}</span><a v-for="social in socialLinks" :key="social.label" :href="social.href" target="_blank" rel="noreferrer">{{ social.label }} ↗</a></div>
