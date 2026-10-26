@@ -18,7 +18,7 @@ const { t } = useI18n()
         <p class="hero-intro">{{ t('home.intro') }}</p>
         <div class="hero-actions">
           <v-btn class="button-primary" color="primary" rounded="pill" size="large" to="/work" append-icon="mdi-arrow-top-right">{{ t('home.journeyButton') }}</v-btn>
-          <TextLink href="mailto:simsimq05@gmail.comn">{{ t('home.contactButton') }}</TextLink>
+          <TextLink href="mailto:simsimq05@gmail.com">{{ t('home.contactButton') }}</TextLink>
         </div>
         <div class="hero-note"><span>01</span><span class="note-line"></span><span>{{ t('home.scrollNote') }}</span></div>
       </div>
